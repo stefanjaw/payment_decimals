@@ -3,15 +3,14 @@
     'name': "payment_decimals",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Add decimals to the amount""",
 
     'description': """
-        Long description of module's purpose
+        Add decimals to the amount
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Avalantec",
+    'website': "https://www.avalantec.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
@@ -22,14 +21,4 @@
     # any module necessary for this one to work correctly
     'depends': ['base','account'],
 
-    # always loaded
-    'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
-    ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
 }
